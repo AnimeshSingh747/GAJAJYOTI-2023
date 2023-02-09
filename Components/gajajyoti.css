@@ -18,7 +18,7 @@ Body {
     Top: 0;
     Font-Family: "Montserrat", "Sans-Serif";
     Height: 70px;
-    Background-Color: #000000;
+    Background-Color: #181717;
     Padding: 0 1%;
   }
   Nav .Logo {
@@ -103,7 +103,7 @@ Body {
       Z-Index: 9;
       Left: 0;
       Right: 0;
-      Top: 100px;
+      Top: 70px;
       Bottom: 100%;
       Width: Auto;
       Height: Auto;
