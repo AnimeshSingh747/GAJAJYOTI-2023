@@ -1,14 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <link rel="stylesheet" href="./about.css" />
+  <title>About</title>
 </head>
+
 <body>
-    <h1>
-        About page
-    </h1>
+  <!-- Navbar -->
+  <header class="header">
+    <Nav>
+        <Input Type="checkbox" Id="Nav-Toggle">
+        <Div Class="Logo"><Strong>Gajajyoti</Strong></Div>
+        <Ul Class="Links">
+          <Li><A Href="../gajajyoti.html">Home</A></Li>
+          <Li><A Href="../pages/about.html">About</A></Li>
+          <Li><A Href="../pages/event.html">Events</A></Li>
+          <Li><A Href="../pages/coordinators.html">Coordinators</A></Li>
+          <Li><A Href="../pages/contact.html">Contact us</A></Li>
+        </Ul>
+        <Label For="Nav-Toggle" Class="Icon-Burger">
+          <Div Class="Line"></Div>
+          <Div Class="Line"></Div>
+          <Div Class="Line"></Div>
+        </Label>
+      </Nav>
+  </header>
+  <!-- Navbar -->
+
+  <div class="flex flex-col items-center md:m-8 max-w-full  text-black ">
+    <img src="./../../Pictures/cutm.png" class="w-40 mt-5" alt="">
+    <h3 class="hero-txt mt-5 text-4xl">About</h3>
+    <p class=" p-4 max-w-7xl text-lg  mt-4">The journey of Centurion University of Technology and Management (CUTM)
+      began in the year 2005 by a group of ambitious academics with aspirations to provide high quality education both
+      nationally and internationally. The first step in this direction was to take over an ailing engineering
+      Institute, the Jagannath Institute for Technology and Management (JITM) in one of the most challenging tribal
+      districts of Odisha and one which was considered to be a left-wing extremist affected area. Subsequently, JITM
+      was transformed into Centurion University of Technology and Management in August 2010, through an act of Odisha
+      Legislative Assembly.</p>
+
+
+    <h2 class="hero-txt mt-5 text-4xl">Our Vision</h2>
+   
+    <p class="p-4 max-w-7xl text-lg mt-4">
+      Provision of quality ,globally accredited academic programmes in technology and management . Facilitating improved
+      market access to goods and financial services to the target population. Promotion of lighthouse project
+      interventions in the target area.
+    </p>
+
+
+    <h2 class="hero-txt mt-5 text-4xl">Our Mission</h2>
+
+    <p class="p-4 max-w-7xl text-lg mt-4">
+      A globally accredited of human resources center of excellence catalyzing
+"sustanable livelihood "in the "less developed markets across the globe".
+    </p>
+
+
+    <img src="./../../Pictures/gramtarang.png" class="w-60 mt-16" alt="">
+    <h3 class="hero-txt mt-5 text-4xl">About</h3>
+    <p class=" p-4  max-w-7xl text-lg  mt-4">Gram Tarang Employability Training Services Pvt. Ltd. is a social
+      entrepreneurial initiative in skill training working in largely underdeveloped regions of the country and is
+      committed & towards providing young people with high quality vocational education & skill training, relevant&
+      recognized certifications resulting in meaningful employment & successful careers in the organized sector.</p>
+  </div>
+
+  <!-- Footer -->
+
+  <footer class=" flex flex-col  md:shrink-0 items-center p-2 max-w-full bg-black   text-white mb-0">
+    <p class="mb-2 text-xs">CONNECT WITH US</p>
+    <a href="https://www.instagram.com/gajajyoti_2022/?utm_medium=copy_link/" target="_blank"><img
+        src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" class="h-10 w-10 mb-2" /></a>
+    <div class="flex text-xs ">
+      <p>2022 Copyright &copy; <a href="cutm.ac.in">Centurion University of Technology and Management</a> | All rights
+        reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Footer End -->
+  <script src="./js/script.js"></script>
 </body>
 </html>
