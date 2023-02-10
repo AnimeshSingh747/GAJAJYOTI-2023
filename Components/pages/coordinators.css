@@ -400,52 +400,6 @@ section{
     color:var(--main-color);
 }
 
-.price .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap:1.5rem;
-}
-
-.price .box-container .box{
-    padding:2rem 0;
-    background:#333;
-    border-radius: .5rem;
-    text-align: center;
-}
-
-.price .box-container .box:hover{
-    transform: scale(1.03);
-}
-
-.price .box-container .box .title{
-    background:var(--main-color);
-    color:#fff;
-    padding:1.5rem 0;
-    font-size: 2rem;
-}
-
-.price .box-container .box .amount{
-    color:#fff;
-    padding-top: 2rem;
-    font-size: 4rem;
-}
-
-.price .box-container .box ul{
-    list-style-type: none;
-    padding:1rem 0;
-}
-
-.price .box-container .box ul li{
-    font-size: 1.5rem;
-    color:#eee;
-    padding:1rem 0;
-}
-
-.price .box-container .box ul li i{
-    color:var(--main-color);
-    padding-right: .5rem;
-}
-
 .reivew .box{
     border-radius: .5rem;
     background: #333;
@@ -458,37 +412,6 @@ section{
     top:2rem; right: 2rem;
     color:var(--main-color);
     font-size: 5rem;
-}
-
-.reivew .box .user{
-    display: flex;
-    align-items: center;
-    gap:1.5rem;
-    padding-bottom: 1rem;
-}
-
-.reivew .box .user img{
-    height:7rem;
-    width: 7rem;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.reivew .box .user h3{
-    font-size: 2rem;
-    color:#fff;
-}
-
-.reivew .box .user span{
-    font-size: 1.5rem;
-    color:#eee;
-}
-
-.reivew .box p{
-    line-height: 2;
-    color:#eee;
-    padding:.5rem 0;
-    font-size: 1.6rem;
 }
 
 .contact form{
