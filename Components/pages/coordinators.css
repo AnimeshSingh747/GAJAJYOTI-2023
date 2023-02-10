@@ -231,16 +231,6 @@ section{
     color:var(--main-color);
 }
 
-.header .navbar a{
-    font-size: 1.7rem;
-    color:#fff;
-    margin-left: 2rem;
-}
-
-.header .navbar a:hover{
-    color:var(--main-color);
-}
-
 #menu-bars{
     font-size: 3rem;
     color:#fff;
@@ -348,13 +338,13 @@ section{
     line-height: 2;
 }
 
-.gallery .box-container{
+.committee .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap:1.5rem;
 }
 
-.gallery .box-container .box{
+.committee .box-container .box{
     position: relative;
     border:1rem solid #333;
     border-radius: .5rem;
@@ -363,18 +353,18 @@ section{
     overflow: hidden;
 }
 
-.gallery .box-container .box img{
+.committee .box-container .box img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.gallery .box-container .box:hover img{
+.committee .box-container .box:hover img{
     transform: scale(1.1);
     filter: grayscale();
 }
 
-.gallery .box-container .box .title{
+.committee .box-container .box .title{
     position: absolute;
     top:-10rem; left:0; right: 0;
     background:#333;
@@ -384,11 +374,11 @@ section{
     font-size: 2rem;
 }
 
-.gallery .box-container .box:hover .title{
+.committee .box-container .box:hover .title{
     top:0;
 }
 
-.gallery .box-container .box .icons{
+.committee .box-container .box .icons{
     position: absolute;
     bottom:-10rem; left:0; right: 0;
     background:#333;
@@ -396,17 +386,17 @@ section{
     text-align: center;
 }
 
-.gallery .box-container .box:hover .icons{
+.committee .box-container .box:hover .icons{
     bottom: 0;
 }
 
-.gallery .box-container .box .icons a{
+.committee .box-container .box .icons a{
     font-size: 2rem;
     margin:.5rem 1rem;
     color:#fff;
 }
 
-.gallery .box-container .box .icons a:hover{
+.committee .box-container .box .icons a:hover{
     color:var(--main-color);
 }
 
