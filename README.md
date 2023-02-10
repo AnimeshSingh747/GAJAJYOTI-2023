@@ -1,1 +1,0 @@
-Official Gajajyoti webpage
