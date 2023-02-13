@@ -8,8 +8,9 @@ Nav {
     Top: 0;
     Font-Family: "Montserrat", "Sans-Serif";
     Height: 70px;
-    Background-Color:rgba(255, 0, 0, 0.4);
-    width: 100%;
+    /* Background-Color:rgba(255, 0, 0, 0.4); */
+    Background-Color:#e10a34;
+    width: auto;
     Padding: 0 1%;
   }
 
@@ -20,7 +21,7 @@ Nav {
     Display: Flex;
     Align-Items: Center;
     Font-Size: 20px;
-    Color: rgb(0, 0, 0);
+    Color: white;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -85,7 +86,7 @@ Nav {
   Nav .Icon-Burger .Line {
     Width: 30px;
     Height: 5px;
-    Background-Color: #000000;
+    Background-Color: #ffffff;
     Margin: 5px;
     Border-Radius: 3px;
     Transition: All 0.5s Ease-In-Out;

@@ -1,32 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,900;1,400&display=swap');
 
-Body {
+
+* {
     Padding: 0;
     Margin: 0;
 }
 
-:root {
-    --main-color: #3867d6;
-}
 
-* {
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: .2s linear;
-}
 
-html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-padding-top: 7rem;
-    scroll-behavior: smooth;
-}
+
 
 body {
     background-image: url(../../Pictures/herobg.jpg);
@@ -38,119 +20,35 @@ body {
     font-weight: 900;
 }
 
-section {
-    padding: 2rem 9%;
+.herotext {
+    font-family: 'Poppins', sans-serif;
 }
 
-.heading {
-    text-align: center;
-    padding-bottom: 2rem;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 4rem;
+.cta {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    border-radius: 30px;
+
+
 }
 
-.heading span {
-    color: var(--main-color);
-    text-transform: uppercase;
+
+.cta:hover {
+    background-color: #e10a34;
+    color: white;
+
+
 }
 
-.btn {
-    margin-top: 1rem;
-    display: inline-block;
-    padding: .8rem 3rem;
-    font-size: 1.7rem;
-    border-radius: .5rem;
-    background: #666;
-    color: #fff;
-    cursor: pointer;
-    font-weight: 600;
+.coordinatorscard{
+    background-color: bisque;
+    box-shadow: 0.4vw 0.4vw #e10a34;
 }
 
-.btn:hover {
-    background: var(--main-color);
-}
-
-.home .content {
-    text-align: center;
-    padding-top: 6rem;
-    margin: 2rem auto;
-    max-width: 70rem;
-}
-
-.home .content h3 {
-    color: #fff;
-    font-size: 4.5rem;
-    text-transform: uppercase;
-}
-
-.home .content h3 span {
-    color: var(--main-color);
-    text-transform: uppercase;
-}
-
-.committee .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    gap: 1.5rem;
-}
-
-.committee .box-container .box {
-    position: relative;
-    border: 1rem solid #333;
-    border-radius: .5rem;
-    height: 25rem;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.committee .box-container .box img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.committee .box-container .box:hover img {
-    transform: scale(1.1);
-    filter: grayscale();
-}
-
-.committee .box-container .box .title {
-    position: absolute;
-    top: -10rem;
-    left: 0;
-    right: 0;
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding-bottom: 1rem;
-    font-size: 2rem;
-}
-
-.committee .box-container .box:hover .title {
-    top: 0;
-}
-
-.committee .box-container .box .icons {
-    position: absolute;
-    bottom: -10rem;
-    left: 0;
-    right: 0;
-    background: #333;
-    padding-top: 1rem;
-    text-align: center;
-}
-
-.committee .box-container .box:hover .icons {
-    bottom: 0;
-}
-
-.committee .box-container .box .icons a {
-    font-size: 2rem;
-    margin: .5rem 1rem;
-    color: #fff;
-}
-
-.committee .box-container .box .icons a:hover {
-    color: var(--main-color);
+.herotext{
+    font-size: 6vw;
 }

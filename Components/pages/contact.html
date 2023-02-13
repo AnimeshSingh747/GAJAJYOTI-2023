@@ -1,80 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
-    <link rel="stylesheet" href="../styles/contact.css" />
-    <link rel="stylesheet" href="../styles/Navbar.css" />
-    <link rel="stylesheet" href="../styles/Footer.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
-    <title>Contacts</title>
-  </head>
+  <link rel="stylesheet" href="../styles/contact.css" />
+  <link rel="stylesheet" href="../styles/Navbar.css" />
+  <link rel="stylesheet" href="../styles/Footer.css" />
 
-  <body>
-    <!-- Navbar -->
-    <Nav>
-        <Input Type="checkbox" Id="Nav-Toggle">
-        <Div Class="Logo"><Strong>Gajajyoti</Strong></Div>
-        <Ul Class="Links">
-          <Li><A Href="../../index.html">Home</A></Li>
-          <Li><A Href="../pages/about.html">About</A></Li>
-          <Li><A Href="../pages/event.html">Events</A></Li>
-          <Li><A Href="../pages/coordinators.html">Coordinators</A></Li>
-          <Li><A Href="../pages/contact.html">Contact us</A></Li>
-        </Ul>
-        <Label For="Nav-Toggle" Class="Icon-Burger">
-          <Div Class="Line"></Div>
-          <Div Class="Line"></Div>
-          <Div Class="Line"></Div>
-        </Label>
-      </Nav>
+  <title>Contacts</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <Nav>
+    <Input Type="checkbox" Id="Nav-Toggle">
+    <div class="Logo"><a href="../../index.html"><strong>Gajajyoti</strong></a></div>
+    <Ul Class="Links">
+      <Li><A Href="../../index.html">Home</A></Li>
+      <Li><A Href="../pages/about.html">About</A></Li>
+      <Li><A Href="../pages/event.html">Events</A></Li>
+      <Li><A Href="../pages/coordinators.html">Coordinators</A></Li>
+      <Li><A Href="../pages/contact.html">Contact us</A></Li>
+    </Ul>
+    <Label For="Nav-Toggle" Class="Icon-Burger">
+      <Div Class="Line"></Div>
+      <Div Class="Line"></Div>
+      <Div Class="Line"></Div>
+    </Label>
+  </Nav>
   </header>
-    <!-- Navbar -->
+  <!-- Navbar -->
 
-    <div class="flex flex-col items-center md:m-8 max-w-full  text-white ">
-        <h3 class="hero-txt mt-5 text-4xl">Contact us</h3>
-        <p class=" p-4 max-w-7xl text-lg  mt-4">
-            <img src="./../../Pictures/gajajyoti 2023 text.png" width="850" height="950" alt="">
-        </p>
-        <p class=" p-4 max-w-7xl text-lg  mt-4">
-            <img src="./../../Pictures/coordinatorslist.jpg" width="850" height="950" alt="">
-        </p>
-        </div>
+  <!-- <div class="flex flex-col items-center md:m-8 max-w-full  text-white ">
+    <h3 class="hero-txt mt-5 text-4xl">Contact us</h3>
+    <p class=" p-4 max-w-7xl text-lg  mt-4">
+      <img src="./../../Pictures/gajajyoti 2023 text.png" width="850" height="950" alt="">
+    </p>
+    <p class=" p-4 max-w-7xl text-lg  mt-4">
+      <img src="./../../Pictures/coordinatorslist.jpg" width="850" height="950" alt="">
+    </p>
+  </div> -->
+
+  <div class="grid md:grid-cols-4  grid-cols-1  items-center my-20">
+
+    <div class="namecard">
+      <div>
+        <img src="../../Pictures/csr.png" alt="">
+      </div>
+
+      <div class="info">
+        <div>Name</div>
+        <div>Contact</div>
+        <div>Number</div>
+        <div>Email</div>
+
+      </div>
+
+    </div>
+    <div class="namecard">
+      <div>
+        <img src="../../Pictures/csr.png" alt="">
+      </div>
+
+      <div class="info">
+
+      </div>
+
+    </div>
+    <div class="namecard">
+      <div>
+        <img src="../../Pictures/csr.png" alt="">
+      </div>
+
+      <div class="info">
+
+      </div>
+
+    </div>
+    <div class="namecard">
+      <div>
+        <img src="../../Pictures/csr.png" alt="">
+      </div>
+
+      <div class="info">
+
+      </div>
+
+    </div>
+  </div>
 
 
-    <!-- Footer -->
-    <footer>
-      <div class="footer">
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
       <div class="row">
-      <a href="https://www.facebook.com/centurionuniversity/"><i class="fa fa-facebook"></i></a>
-      <a href="https://www.instagram.com/cutm_shout_out_/?hl=en"><i class="fa fa-instagram"></i></a>
-      <a href="https://www.youtube.com/@cutmodisha7103"><i class="fa fa-youtube"></i></a>
-      <a href="https://twitter.com/CUTMIndia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
-      <a href="https://www.linkedin.com/school/centurion-university-of-technology-and-management/?originalSubdomain=in"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/centurionuniversity/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/cutm_shout_out_/?hl=en"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@cutmodisha7103"><i class="fa fa-youtube"></i></a>
+        <a href="https://twitter.com/CUTMIndia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+            class="fa fa-twitter"></i></a>
+        <a
+          href="https://www.linkedin.com/school/centurion-university-of-technology-and-management/?originalSubdomain=in"><i
+            class="fa fa-linkedin"></i></a>
       </div>
-      
+
       <div class="row">
-      <ul>
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="../Components/pages/about.html">About</a></li>
-      <li><a href="../Components/pages/event.html">Events</a></li>
-      <li><a href="../Components/pages/coordinators.html">Coordinators</a></li>
-      <li><a href="../Components/pages/contact.html">Contacts</a></li>
-      </ul>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="../Components/pages/about.html">About</a></li>
+          <li><a href="../Components/pages/event.html">Events</a></li>
+          <li><a href="../Components/pages/coordinators.html">Coordinators</a></li>
+          <li><a href="../Components/pages/contact.html">Contacts</a></li>
+        </ul>
       </div>
-      
+
       <div class="row">
-      Copyright © 2023 Centurion University of Technology - All rights reserved 
+        Copyright © 2023 Centurion University of Technology - All rights reserved
       </div>
-      </div>
-      </footer>
-    <!-- Footer End -->
-    <script src="./js/script.js"></script>
-  </body>
+    </div>
+  </footer>
+  <!-- Footer End -->
+  <script src="./js/script.js"></script>
+</body>
+
 </html>

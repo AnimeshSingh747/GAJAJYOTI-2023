@@ -8,21 +8,32 @@
       href="Https://Fonts.Googleapis.Com/Css2?Family=Montserrat:wght@200&Display=Swap"
       rel="Stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
 
     <link rel="Stylesheet" href="./Components/styles/index.css" />
     <link rel="Stylesheet" href="./Components/styles/Navbar.css" />
     <link rel="Stylesheet" href="./Components/styles/Footer.css" />
+    <link rel="Stylesheet" href="./Components/styles/slider.css" />
   </head>
 
   <body>
     <nav>
       <input type="checkbox" id="Nav-Toggle" />
-      <div class="Logo"><strong>Gajajyoti</strong></div>
+      <div class="Logo"><a href="./index.html"><strong>Gajajyoti</strong></a></div>
       <ul class="Links">
         <li><a href="./index.html">Home</a></li>
         <li><a href="../Components/pages/about.html">About</a></li>
@@ -65,279 +76,96 @@
 
           <!-- <img src="./Pictures/dancebg.png" alt="">  -->
         </div>
-        
       </div>
     </section>
-    <!-- Banner -->
-<div class="flex flex-col lg:items-center lg:flex">
-  <p class=" p-1 ">
-    <img src="Pictures/Website banner 2.png" width="1920" height="1080" alt="">
-</p>
-</div>
 
+    <div
+      class="flex items-center justify-center py-20 "
+    >
+      <img src="Pictures/Website banner 2.png" alt="" />
+    </div>
 
-<!-- Event Section -->
-<section class="events" id="events">
-
-  <h1 class="heading">gajajyoti <span>Events</span></h1>
-
-  <div class="box-container">
-
-      <div class="box">
-          <img src="./../../Pictures/designcrew.png" alt="">
-          <h3 class="title">Design Crew</h3>
-          <div class="icons">
-              <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="fas fa-share"></a>
-              <a href="#" class="fas fa-eye"></a>
-          </div>
+    <!--Slideshow starts  -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./Pictures/gallery/1.jfif" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Pictures/gallery/2.jfif" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Pictures/gallery/3.jfif" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Pictures/gallery/4.jfif" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Pictures/gallery/5.jfif" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Pictures/gallery/6.jfif" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Pictures/gallery/7.jfif" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Pictures/gallery/8.jfif" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Pictures/gallery/9.jfif" />
+        </div>
       </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-      <div class="box">
-          <img src="./../../Pictures/CC.jpg" alt="">
-          <h3 class="title">Central Coordinator</h3>
-          <div class="icons">
-              <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="fas fa-share"></a>
-              <a href="#" class="fas fa-eye"></a>
-          </div>
-      </div>
-
-      <div class="box">
-          <img src="./../../Pictures/cultural1.jpg" alt="">
-          <h3 class="title">Cultural</h3>
-          <div class="icons">
-              <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="fas fa-share"></a>
-              <a href="#" class="fas fa-eye"></a>
-          </div>
-      </div>
-
-      <div class="box">
-          <img src="./../../Pictures/anchoringfinal.jpg" alt="">
-          <h3 class="title">Anchoring</h3>
-          <div class="icons">
-              <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="fas fa-share"></a>
-              <a href="#" class="fas fa-eye"></a>
-          </div>
-      </div>
-
-      <div class="box">
-          <img src="./../../Pictures/discipline1.jpg" alt="">
-          <h3 class="title">Discipline</h3>
-          <div class="icons">
-              <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="fas fa-share"></a>
-              <a href="#" class="fas fa-eye"></a>
-          </div>
-      </div>
-
-      <div class="box">
-          <img src="./../../Pictures/wallmanaging.png" alt="">
-          <h3 class="title">Wall Magazine</h3>
-          <div class="icons">
-              <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="fas fa-share"></a>
-              <a href="#" class="fas fa-eye"></a>
-          </div>
-      </div>
-
-      <div class="box">
-          <img src="./../../Pictures/science1.jpg" alt="">
-          <h3 class="title">Science Team</h3>
-          <div class="icons">
-              <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="fas fa-share"></a>
-              <a href="#" class="fas fa-eye"></a>
-          </div>
-      </div>
-
-      <div class="box">
-          <img src="./../../Pictures/prizedis.jpg" alt="">
-          <h3 class="title">Stage Prize and certificate</h3>
-          <div class="icons">
-              <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="fas fa-share"></a>
-              <a href="#" class="fas fa-eye"></a>
-          </div>
-      </div>
-
-      <div class="box">
-          <img src="./../../Pictures/Management1.jpg" alt="">
-          <h3 class="title">Management</h3>
-          <div class="icons">
-              <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="fas fa-share"></a>
-              <a href="#" class="fas fa-eye"></a>
-          </div>
-      </div>
-
-      <div class="box">
-          <img src="./../../Pictures/MassCommunication.jpg" alt="">
-          <h3 class="title">Mass Media</h3>
-          <div class="icons">
-              <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="fas fa-share"></a>
-              <a href="#" class="fas fa-eye"></a>
-          </div>
-      </div>
-
-  </div>
-
-</section>
-<!-- Event section end -->
-
-<!-- Slideshow container -->
-
-<div class="slideshow-container">
-
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/1.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/2.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/3.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/4.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/5.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/6.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/7.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/8.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/9.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/10.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/11.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/12.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/13.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/14.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/15.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/16.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/17.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/18.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/19.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/20.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/21.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/22.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/23.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/24.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/25.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/26.jfif" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Pictures/gallery/27.jfif" style="width:100%">
-  </div>
-  
-  </div>
-  <br>
-  <div style="text-align:center">
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-  </div>
-  
-      <script src="./Components/js/corosal.js"></script>
-
-<!--Slideshow ends  -->
+    <script src="./Components/js/corosal.js"></script>
+    <!--Slideshow ends  -->
 
 
-    <!-- Footer start -->   
+    <!-- Footer start -->
     <footer>
       <div class="footer">
-      <div class="row">
-      <a href="https://www.facebook.com/centurionuniversity/"><i class="fa fa-facebook"></i></a>
-      <a href="https://www.instagram.com/cutm_shout_out_/?hl=en"><i class="fa fa-instagram"></i></a>
-      <a href="https://www.youtube.com/@cutmodisha7103"><i class="fa fa-youtube"></i></a>
-      <a href="https://twitter.com/CUTMIndia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
-      <a href="https://www.linkedin.com/school/centurion-university-of-technology-and-management/?originalSubdomain=in"><i class="fa fa-linkedin"></i></a>
-      </div>
-      
-      <div class="row">
-      <ul>
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="../Components/pages/about.html">About</a></li>
-      <li><a href="../Components/pages/event.html">Events</a></li>
-      <li><a href="../Components/pages/coordinators.html">Coordinators</a></li>
-      <li><a href="../Components/pages/contact.html">Contacts</a></li>
-      </ul>
-      </div>
-      
-      <div class="row">
-      Copyright © 2023 Centurion University of Technology - All rights reserved 
-      </div>
-      </div>
-      </footer>
-    <!-- Footer End -->    
+        <div class="row">
+          <a href="https://www.facebook.com/centurionuniversity/"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/cutm_shout_out_/?hl=en"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a href="https://www.youtube.com/@cutmodisha7103"
+            ><i class="fa fa-youtube"></i
+          ></a>
+          <a
+            href="https://twitter.com/CUTMIndia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/school/centurion-university-of-technology-and-management/?originalSubdomain=in"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </div>
 
+        <div class="row">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="../Components/pages/about.html">About</a></li>
+            <li><a href="../Components/pages/event.html">Events</a></li>
+            <li>
+              <a href="../Components/pages/coordinators.html">Coordinators</a>
+            </li>
+            <li><a href="../Components/pages/contact.html">Contacts</a></li>
+          </ul>
+        </div>
+
+        <div class="row">
+          Copyright © 2023 Centurion University of Technology - All rights
+          reserved
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer End -->
   </body>
 </html>
