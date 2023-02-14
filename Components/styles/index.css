@@ -7,4 +7,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
+.fontBold{
+  background-image: url(../../Pictures/herobg5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: 900;
+}

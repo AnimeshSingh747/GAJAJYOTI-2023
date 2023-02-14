@@ -1,10 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
-body{
-    background-image: url(../../Pictures/herobg.jpg);
+
+.fontBold{
+    background-image: url(../../Pictures/herobg6.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     color: black;
     font-weight: 900;
-    }
+}
+
+.herotext {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cta {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    border-radius: 30px;
+
+
+}
+
+
+.cta:hover {
+    background-color: #e10a34;
+    color: white;
+
+
+}
+
+.coordinatorscard{
+    background-color: bisque;
+    box-shadow: 0.4vw 0.4vw #e10a34;
+}
+
+.herotext{
+    font-size: 6vw;
+}
