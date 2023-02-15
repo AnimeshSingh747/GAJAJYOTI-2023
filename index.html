@@ -28,9 +28,94 @@
     <link rel="Stylesheet" href="./Components/styles/Navbar.css"/>
     <link rel="Stylesheet" href="./Components/styles/Footer.css"/>
     <link rel="Stylesheet" href="./Components/styles/slider.css"/>
+    <link rel="Stylesheet" href="./Components/styles/Confetti.css"/>
   </head>
 
 <body>
+
+  <div class="confetti-land">
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+  </div>
+
     <div class="fontBold">
 <!-- Navbar start -->
     <nav>
@@ -55,6 +140,7 @@
       <div class="Line"></div>
     </label>
 <!-- Navbar End -->
+
 
     <section class="relative">
       <img
@@ -222,6 +308,7 @@
     <script src="./Components/js/corosal.js"></script>
   <!--Slideshow ends  -->
 </div>
+
   <!-- Footer start -->
     <footer>
       <div class="footer">
@@ -263,5 +350,15 @@
       </div>
     </footer>
   <!-- Footer End -->
+  <script src="/Components/js/confetti.js"></script>
+  <script>
+    const startit = () => {
+      setTimeout(function () {
+        console.log('start')
+        confetti.start();
+      }, 1000);
+    };
+    startit();
+  </script>
   </body>
 </html>
