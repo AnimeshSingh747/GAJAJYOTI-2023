@@ -6,7 +6,7 @@
     position: absolute;
     top: -1rem;
     left: 0;
-    z-index: 50;
+    z-index:50;
   }
   .confetti .rotate {
     animation: driftyRotate 1s infinite both ease-in-out;
