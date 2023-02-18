@@ -5,6 +5,8 @@
     font-family: 'Play', sans-serif;
     text-align: center;
     font-weight: bolder;
+
+
 }
 
 .footer .row {
@@ -13,6 +15,7 @@
     padding: 0.6% 0%;
     color: rgb(255, 255, 255);
     font-size: 0.8em;
+
 }
 
 .footer .row a {
@@ -20,6 +23,7 @@
     color: rgb(255, 255, 255);
     transition: 0.5s;
 }
+
 
 .footer .row a:hover{
     color:#413f3f;
@@ -49,9 +53,31 @@
         display: block;
         margin: 10px 0px;
         text-align: left;
+
     }
 
     .footer .row a i {
         margin: 0% 3%;
+    }
+}
+
+
+
+@Media Screen And (Max-Width: 768px) {
+    .footer .row ul {
+        width: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer .row {
+        width: auto;
+        margin: auto;
+        padding: 0.6% 0%;
+        color: rgb(255, 255, 255);
+        font-size: 0.8em;
+        
+
+
     }
 }

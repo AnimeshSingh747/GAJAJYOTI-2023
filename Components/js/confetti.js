@@ -2,7 +2,7 @@ var confettiPlayers = [];
 
 function makeItConfetti() {
   var confetti = document.querySelectorAll('.confetti');
-  
+
   if (!confetti[0].animate) {
     return false;
   }
@@ -19,7 +19,7 @@ function makeItConfetti() {
       iterations: Infinity,
       delay: -(Math.random() * 7000)
     });
-    
+
     confettiPlayers.push(player);
   }
 }
