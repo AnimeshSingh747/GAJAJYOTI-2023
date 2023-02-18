@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,900;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+.herotext {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fontBold {
+    background-image: url(../../Pictures/herobg4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 900;
+}
+
+.column {
+    float: left;
+    width: auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding: 0 8px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title {
+    color: whitesmoke;
+    font-size: auto;
+  }

@@ -2,6 +2,8 @@
 
 Nav {
     position: fixed;
+    justify-content: space-between;
+    flex-shrink: shrink;
     Z-Index: 10;
     Left: 0;
     Right: 0;
@@ -12,11 +14,12 @@ Nav {
     Background-Color:#e10a34;
     width: auto;
     Padding: 0 1%;
+    display: flex;
   }
 
   Nav .Logo {
     Float: Left;
-    Width: 40%;
+    Width: auto;
     Height: 100%;
     Display: Flex;
     Align-Items: Center;
@@ -29,7 +32,7 @@ Nav {
     Float: Right;
     Padding: 0;
     Margin: 0;
-    Width: 35%;
+    Width: auto;
     Height: 100%;
     Display: Flex;
     Justify-Content: Center;
