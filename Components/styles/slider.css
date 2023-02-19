@@ -18,7 +18,7 @@ body {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
- 
+
 }
 
 .swiper-slide {
@@ -31,4 +31,13 @@ body {
 .swiper-slide img {
   display: block;
   width: 100%;
+}
+
+@Media Screen And (Max-Width: 768px) {
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: auto;
+  }
 }
