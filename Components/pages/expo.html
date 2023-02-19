@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
   <link rel="Stylesheet" href="../styles/expo.css" />
@@ -21,7 +22,6 @@
 
 <body>
   <div class="fontBold">
-
 
     <!-- Navbar start -->
     <nav>
@@ -49,7 +49,6 @@
       <div class="Line"></div>
     </label>
     <!-- Navbar End -->
-    <div class="fontBold">
 
       <div class="confetti-land">
         <div class="confetti"></div>
@@ -63,77 +62,91 @@
         <div class="confetti"></div>
         <div class="confetti"></div>
       </div>
+    
+    
 
       <section class="relative">
-        <img class="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full" src="./Pictures/herobg.jpg"
-          alt="herobg" />
+        <img class="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full" 
+        src="./Pictures/herobg.jpg" alt="herobg" />
         <div class="relative px-4 py-32 mx-auto max-w-screen-xl lg:h-screen lg:items-center lg:flex">
           <div class="md:max-w-xl max-w-xs text-left sm:text-left">
             <strong class="text-rose-700 sm:block">
               <h2
-                class="text-5xl md:leading-loose herotext mt-4 text-transparent md:text-7xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+                class="text-5xl md:leading-loose herotext mt-4 text-transparent md:text-7xl bg-clip-text bg-gradient-to-r
+                 from-pink-500 via-red-500 to-yellow-500">
                 Centurion EXPO
               </h2>
             </strong>
-            <marquee class="text-2xl text-red-500 italic font-mono">The Institute students and faculty will showcase the scientific and technological 
+            <marquee class="text-2xl text-orange-500 italic font-mono">The Institute students and faculty will showcase the scientific and technological 
               activities undertaken at Centurion University in various fields such as Energy, Materials, Healthcare, Engineering, Physics, and Chemistry 
-              in this Mega Expo through simple, convenient displays.</marquee>
+              in this Mega Expo through simple, convenient displays.</marquee> 
           </div>
         </div>
       </section>
-
-
-
-
-    <!-- <div class="flex flex-col items-center max-w-full mt-16 md:backdrop-blur-sm">
-        <img src="./../../Pictures/Logoblack.png" class="w-40 mt-5" alt="" />
-        <h3 class="hero-txt mt-5 text-4xl">About</h3>
+   
+  </div>
+  <div class="flex flex-col items-center max-w-full mt-16 md:backdrop-blur-sm">
+        <h3 class="hero-txt mt-5 text-4xl">About Centurion EXPO</h3>
         <p class="p-4 max-w-7xl text-lg mt-4">
-          The journey of Centurion University of Technology and Management
-          (CUTM) began in the year 2005 by a group of ambitious academics with
-          aspirations to provide high quality education both nationally and
-          internationally. The first step in this direction was to take over an
-          ailing engineering Institute, the Jagannath Institute for Technology
-          and Management (JITM) in one of the most challenging tribal districts
-          of Odisha and one which was considered to be a left-wing extremist
-          affected area. Subsequently, JITM was transformed into Centurion
-          University of Technology and Management in August 2010, through an act
-          of Odisha Legislative Assembly.
-        </p>
-
-        <h2 class="hero-txt mt-5 text-4xl">Our Vision</h2>
-
-        <p class="p-4 max-w-7xl text-lg mt-4">
-          Provision of quality ,globally accredited academic programmes in
-          technology and management . Facilitating improved market access to
-          goods and financial services to the target population. Promotion of
-          lighthouse project interventions in the target area.
-        </p>
-
-        <h2 class="hero-txt mt-5 text-4xl">Our Mission</h2>
-
-        <p class="p-4 max-w-7xl text-lg mt-4">
-          A globally accredited of human resources center of excellence
-          catalyzing "sustanable livelihood "in the "less developed markets
-          across the globe".
-        </p>
-
-        <img src="./../../Pictures/gramtarang.png" class="w-60 mt-16" alt="" />
-        <h3 class="hero-txt mt-5 text-4xl">About</h3>
-        <p class="p-4 max-w-7xl text-lg mt-4">
-          Gram Tarang Employability Training Services Pvt. Ltd. is a social
-          entrepreneurial initiative in skill training working in largely
-          underdeveloped regions of the country and is committed & towards
-          providing young people with high quality vocational education & skill
-          training, relevant& recognized certifications resulting in meaningful
-          employment & successful careers in the organized sector.
+          Centurion university is all set to host its 1st Open Day and Mega
+          Centurion Expo this year on 2nd March, 2023 on the eve of Gajajyoti2020 
+          where more than 8000 students of all schools and colleges even including
+          the parents of the students and some dignitaries within the state of Odisha 
+          are expected to participate. The idea of holding an “Mega Centurion
+          Expo” within the Institute premises was first floated, on the eve ofthe 11th Annual
+          Techno-Science-Management-Cultural-Literary Fest of Centurion University, Bhubaneswar 
+          Campus. The celebration to promote scientific talent and inspire students of the hinterland 
+          at an early stage.
         </p>
       </div>
-    </div> -->
+
+  <div class="items-center max-w-full md:backdrop-blur-sm">
+  <div class="flex items-center justify-center py-10 ">
+  <img src="../../Pictures/Expo invite.jpg" alt="" />
+  </div>  
 
 
+  <div class="flex flex-col items-center max-w-full mt-16 md:backdrop-blur-sm">
+        
 
-  </div>
+        <h2 class="hero-txt mt-5 text-4xl">About our Institution</h2>
+
+        <p class="p-4 max-w-7xl text-lg mt-4">
+          Speaking on the occasion, Centurion University Of Technology Of Management(BBSR campus)says,
+          “The university provides high quality education both nationally and internationally through 
+          hands-on practice, liveproject, skill integrated and domain linked curriculum, learning -by-doing 
+          and industry internships. It has the state-of -the -art laboratory and workshop facilities with
+          manufacturing capability. On the CUTM EXPO , The centurion family will open the doors of our campus 
+          to the general public and let them witness the development and achievements Centurion University has 
+          gained till date .All the things of our campus including Projects, SFS Areas, World Skill, Domains, Labs, 
+          Products and any other item should be showcased”
+        </p>
+
+        <h2 class="hero-txt mt-5 text-4xl">Our Accredition</h2>
+
+        <p class="p-4 max-w-7xl text-lg mt-4">
+              Accredited with NAAC Grade 'A' <br>
+             Awarded with UGC 12(b) <br>
+             Awarded with Odisha's first skilled university <br>
+             Certified from ICAR <br>
+             World Class Laboratory Facility <br>
+             World class sports facility and infrastructure <br>
+        </p>
+
+        <h3 class="hero-txt mt-5 text-4xl">What we will showcase at CUTM EXPO</h3>
+        <p class="p-4 max-w-7xl text-lg mt-4">
+          In this CUTM Expo, the Institute faculty and students will showcase the science and technology initiatives 
+          undertaken in various areas, such as Energy, Materials, Healthcare, Engineering, Physics and Chemistry at 
+          centurion university through simple, easy to understand 150+ live experiments and exhibits to inspire as well 
+          as to promote and ignite the scientific learning curiosity among the students, across all schools and colleges 
+          of Science and Engineering. The sole objective of the Open Day and Expo is to attract the school kids of remote 
+          locality, especially to empower the girl students to the sphere of Science and Technology. The Open Day and Expo 
+          is indeed going to be an exciting, enriching and knowledgeable experience for all the participating students with 
+          a lasting impact on their career path ahead. All the visiting students and volunteers are provided with lunch using 
+          contributions from several sponsors and Institute end.
+        </p>
+      </div>
+
     <!-- Footer start -->
     <footer>
       <div class="footer">
