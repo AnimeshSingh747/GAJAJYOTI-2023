@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .herotext{
+    font-family: 'Poppins', sans-serif;
+  }
+
+.fontBold {
+    background-image: url(../../Pictures/herobg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 900;
+}
+
+.lottie {
+  align-items: right;
+}
