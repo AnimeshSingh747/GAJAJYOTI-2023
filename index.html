@@ -18,6 +18,7 @@
   <link rel="Stylesheet" href="./Components/styles/Footer.css" />
   <link rel="Stylesheet" href="./Components/styles/slider.css" />
   <link rel="Stylesheet" href="./Components/styles/Confetti.css" />
+  <link rel="Stylesheet" href="./Components/styles/timer.css" />
 </head>
 
 <body>
@@ -87,7 +88,17 @@
           <marquee class="text-2xl text-red-500 italic font-mono">Gajajyoti will begin on March 1, 2023, and will end on March 4,
             2023.</marquee>
 
-          <!-- <img src="./Pictures/dancebg.png" alt="">  -->
+            <div class="example">
+      <h1>FlipDown.js</h1>
+      <p>⏰ A lightweight and performant flip styled countdown clock</p>
+      <div id="flipdown" class="flipdown"></div>
+      <div class="buttons">
+        <p>Version: <span id="ver"></span> (&lt;11KB minified)</p>
+        <a href="https://github.com/PButcher/flipdown#flipdown" target="_blank" 
+        class="button"><i class="fab fa-github"></i> <span>Get started</span></a>
+      </div>
+    </div>
+
         </div>
       </div>
     </section>
@@ -96,6 +107,8 @@
       <div class="flex items-center justify-center py-10">
         <img src="Pictures/Website banner 2.png" alt="" />
     </div>
+
+    
 
       <!--Slideshow starts  -->
       <div class="swiper mySwiper">
@@ -199,6 +212,7 @@
     </footer>
     <!-- Footer End -->
     <script src="/Components/js/confetti.js"></script>
+    <script src="/Components/js/timer.js"></script>
     <script>
       const startit = () => {
         setTimeout(function () {
