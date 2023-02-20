@@ -16,6 +16,13 @@
     color: black;
     font-weight: 900;
 }
+.herosec{
+  background-image: url(../../Pictures/herobg2.jpg);
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: 700;
+}
 
 .lottie {
   align-items: right;

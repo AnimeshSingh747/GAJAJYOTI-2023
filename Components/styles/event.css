@@ -37,9 +37,20 @@
 .coordinatorscard{
     background-color: bisque;
     box-shadow: 0.4vw 0.4vw #e10a34;
-    width: 20vw;
+    width: 100%;
 }
+
 
 .herotext{
     font-size: 6vw;
+}
+
+@Media Screen And (Max-Width: 768px) {
+    .coordinatorscard{
+        width: 100%;
+    }
+
+    .herotext{
+        font-size: 10vw;
+    }
 }
